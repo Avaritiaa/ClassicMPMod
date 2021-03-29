@@ -2,13 +2,16 @@
 
 defender_of_faith_1 = {
 	level = 1
-    range_to = 5
+    range_from = 35
     modifier = {
 		missionaries = 1
-		land_morale = 0.05
-		naval_morale = 0.05
 		missionary_maintenance_cost = -0.1
+		land_morale = 0.05
     }
+	same_faith_modifier = {
+		# Applies also on the DoF
+		missionary_maintenance_cost = -0.1
+	}
 	ai_will_do = {
 		factor = 0.1
 		modifier = {
@@ -48,16 +51,18 @@ defender_of_faith_1 = {
 
 defender_of_faith_2 = {
 	level = 2
-    range_from = 5
-    range_to = 10
+    range_from = 15
+    range_to = 35
     modifier = {
 		missionaries = 1
-		missionary_maintenance_cost = -0.1
-		prestige = 0.5
+		missionary_maintenance_cost = -0.15
 		land_morale = 0.05
-		naval_morale = 0.05
-		war_exhaustion = -0.03
+		prestige = 0.5
     }
+	same_faith_modifier = {
+		# Applies also on the DoF
+		missionary_maintenance_cost = -0.1
+	}
 	ai_will_do = {
 		factor = 0.2
 		modifier = {
@@ -97,13 +102,12 @@ defender_of_faith_2 = {
 
 defender_of_faith_3 = {
 	level = 3
-    range_from = 10
-    range_to = 20
+    range_from = 5
+    range_to = 15
     modifier = {
 		missionaries = 1
 		missionary_maintenance_cost = -0.2
 		land_morale = 0.05
-		naval_morale = 0.05
 		prestige = 1
     }
 	ai_will_do = {
@@ -145,16 +149,15 @@ defender_of_faith_3 = {
 
 defender_of_faith_4 = {
 	level = 4
-    range_from = 20
-    range_to = 50
+    range_from = 2
+    range_to = 5
     modifier = {
 		missionaries = 1
 		missionary_maintenance_cost = -0.2
 		land_morale = 0.05
-		naval_morale = 0.05
 		prestige = 1
 		war_exhaustion = -0.03
-		manpower_in_true_faith_provinces = 0.2
+		manpower_in_true_faith_provinces = 0.1
     }
 	ai_will_do = {
 		factor = 1
@@ -195,20 +198,15 @@ defender_of_faith_4 = {
 
 defender_of_faith_5 = {
 	level = 5
-    range_from = 50
+    range_to = 2
     modifier = {
-		missionaries = 1
+		missionaries = 2
 		missionary_maintenance_cost = -0.2
 		land_morale = 0.05
-		naval_morale = 0.05
 		prestige = 1
 		war_exhaustion = -0.03
 		manpower_in_true_faith_provinces = 0.2
     }
-	same_faith_modifier = {
-		# Applies also on the DoF
-		missionary_maintenance_cost = -0.2
-	}
 	ai_will_do = {
 		factor = 1.5
 		modifier = {
