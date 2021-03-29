@@ -2210,8 +2210,8 @@ NGovernment = {
 	LEADER_AS_MONARCH_TRADITION = 30, -- How much tradition leaders will get when generated for
 },
 
+}
+
 package.loaded["debug"] = nil
 _G["debug"] = nil
 debug = nil
-
-}
