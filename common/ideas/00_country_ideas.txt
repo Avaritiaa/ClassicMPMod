@@ -15167,7 +15167,7 @@ ICE_ideas = {
 
 AHU_ideas = {
 	start = {
-		free_leader_pool = 1
+		land_morale = 0.1
 		diplomatic_annexation_cost = -0.15
 	}
 	
