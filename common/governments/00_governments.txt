@@ -256,6 +256,7 @@ republic = {
 				protectorate_parliament_reform
 				prussian_republic_reform
 				united_cantons_reform
+				h_reform_commandery
 			}
 		}
 		republican_virtues = {
@@ -738,6 +739,38 @@ pre_dharma_mapping = {
 		legacy_government = pirate_republic
 	}
 	all_mechanics = {
+		government = monarchy
+		legacy_government = despotic_monarchy
+	}
+	h_reform_commandery = {
+		government = republic
+		legacy_government = oligarchic_republic
+	}
+	h_reform_prefecture = {
+		government = monarchy
+		legacy_government = despotic_monarchy
+	}
+	h_reform_warlord_1 = {
+		government = monarchy
+		legacy_government = despotic_monarchy
+	}
+	h_reform_citystate = {
+		government = monarchy
+		legacy_government = despotic_monarchy
+	}
+	h_reform_native_empire = {
+		government = monarchy
+		legacy_government = despotic_monarchy
+	}
+	h_reform_warlord_2 = {
+		government = monarchy
+		legacy_government = despotic_monarchy
+	}
+	h_reform_warlord_3 = {
+		government = monarchy
+		legacy_government = despotic_monarchy
+	}
+	h_reform_warlord_4 = {
 		government = monarchy
 		legacy_government = despotic_monarchy
 	}
