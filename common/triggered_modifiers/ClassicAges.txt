@@ -1,3 +1,27 @@
+#################################
+#JihadClassic
+#################################
+ase_jihad_triggered_modifier = {
+	potential = {
+		current_age = age_of_reformation
+		religion_group = muslim
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = ase_jihad_triggered_modifier_TT
+			has_country_flag = muslim_jihad_flag
+		}
+        any_known_country = {
+            NOT = { religion = ROOT }
+            war_with = ROOT
+        }
+	}
+
+	land_morale = 0.10
+}
+#################################
+#Splendor
+#################################
 splendor_triggered_modifier_1 = {
 	potential = {
 		has_dlc = "Mandate of Heaven"
