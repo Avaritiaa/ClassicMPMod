@@ -7,6 +7,9 @@ emperor_reichsreform = {
 		local_build_cost = -0.05
 		local_development_cost = -0.05
 	}
+	emperor = {
+		imperial_authority_value = 0.2
+	}
 	on_effect = {
 		imperial_ban_allowed = yes
 	}
@@ -21,8 +24,9 @@ emperor_reichsregiment = {
 	potential = {
 		has_dlc = "Emperor"
 	}
-	province = {
-		manpower_recovery_speed = 0.10
+	all = {
+		production_efficiency = 0.05
+		global_tax_modifier = 0.05
 	}
 	emperor = {
 		diplomatic_reputation = 1
@@ -40,8 +44,8 @@ emperor_reichsstabilitaet = {
 	potential = {
 		has_dlc = "Emperor"
 	}
-	province = {
-		local_state_maintenance_modifier = -0.25
+	all = {
+		manpower_recovery_speed = 0.10
 	}
 	on_effect = {
 		custom_tooltip = "EXPAND_EMPIRE_CB"
@@ -54,10 +58,10 @@ emperor_gemeinerpfennig = {
 		has_dlc = "Emperor"
 	}
 	all = {
-		diplomatic_reputation = 1
+		prestige = 0.5
 	}
-	emperor_per_prince = {
-		global_tax_income = 0.5
+	emperor = {
+		free_mil_policy = 1
 	}
 	required_reform = emperor_reichsstabilitaet
 	gui_container = mainline
@@ -71,9 +75,11 @@ emperor_perpetual_diet = {
 	potential = {
 		has_dlc = "Emperor"
 	}
-	
 	emperor = {
-		free_city_imperial_authority = 0.5
+		army_tradition_decay = -0.005
+	}
+	elector = {
+		defensiveness = 0.10
 	}
 	on_effect = {
 		custom_tooltip = "PERPETUAL_DIET_ESTABLISHED"
@@ -115,12 +121,15 @@ emperor_landsknechtswesen = {
 	empire = hre
 	required_reform = emperor_perpetual_diet
 	gui_container = mainline
-
+	
 	potential = {
 		has_dlc = "Emperor"
 	}
-	all = {
-		imperial_mercenary_cost = -0.25
+	emperor_per_prince = {
+		global_manpower = 5
+	}
+	elector = {
+		mercenary_cost = -0.15
 	}
 }
 
@@ -135,15 +144,18 @@ emperor_landfriede = {
 	emperor = {
 		prestige = 0.5
 	}
+	elector = {
+		reinforce_speed = 0.15
+	}
 	province = {
 		local_institution_spread = 0.1
 	}
-	on_effect = {
-		internal_hre_cb = no
-	}
-	off_effect = {
-		internal_hre_cb = yes
-	}
+	#on_effect = {
+	#	internal_hre_cb = no
+	#}
+	#off_effect = {
+	#	internal_hre_cb = yes
+	#}
 	required_reform = emperor_landsknechtswesen
 	gui_container = mainline
 }
