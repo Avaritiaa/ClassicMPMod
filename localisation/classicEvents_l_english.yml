@@ -1,0 +1,4 @@
+﻿l_english:
+ classic_nationalstats.title:0 "National Statistics"
+ classic_nationalstats.a:0 "Thanks for the information!"
+ classic_nationalstats.desc:0 "You have developed provinces a total of §Y[Root.totalTimesDeveloped.GetValue]§! times.\nYou have increased the £adm£ development of provinces a total of §Y[Root.timesDevelopedAdmin.GetValue]§! times.\nYou have increased the £dip£ development of provinces a total of §Y[Root.timesDevelopedDiplo.GetValue]§! times.\nYou have increased the £mil£ development of provinces a total of §Y[Root.timesDevelopedMil.GetValue]§! times.\n\nYou have hired §Y[Root.numGenerals.GetValue]§! generals and §Y[Root.numAdmirals.GetValue]§! admirals, for a total of §Y[Root.numLeaders.GetValue]§! leaders."
