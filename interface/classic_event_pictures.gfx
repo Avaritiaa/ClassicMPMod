@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "Hagia-Sophia"
+		texturefile = "gfx/event_pictures/event_pictures_classic/Hagia-Sophia.dds"
+		allwaystransparent = yes
+	}
+}
