@@ -126,7 +126,7 @@ emperor_landsknechtswesen = {
 		has_dlc = "Emperor"
 	}
 	emperor_per_prince = {
-		global_manpower = 5
+		global_manpower = 3
 	}
 	elector = {
 		mercenary_cost = -0.15
