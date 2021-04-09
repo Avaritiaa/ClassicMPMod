@@ -6,3 +6,11 @@ spriteTypes = {
 		allwaystransparent = yes
 	}
 }
+spriteTypes = {
+
+	spriteType = {
+		name = "Numenera"
+		texturefile = "gfx/event_pictures/event_pictures_classic/Numenera.dds"
+		allwaystransparent = yes
+	}
+}

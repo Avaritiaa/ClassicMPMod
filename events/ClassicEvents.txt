@@ -9,7 +9,7 @@ country_event = {
     id = classic_nationalstats
     title = classic_nationalstats.title
 	desc = classic_nationalstats.desc
-    picture = Hagia-Sophia
+    picture = Numenera
 
     is_triggered_only = yes
 
