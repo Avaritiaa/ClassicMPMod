@@ -9,24 +9,13 @@ spriteTypes = {
 		texturefile = "gfx/interface/ages/ase_piles_gold.dds"
 	}
 	spriteType = {
-		name = "GFX_ase_dynamic_court"
-		texturefile = "gfx/interface/ages/ase_dynamic_court.dds"
-	}
-
-	spriteType = {
-		name = "GFX_ase_exploration_corp"
-		texturefile = "gfx/interface/ages/ase_exploration_corp.dds"
-	}
-	spriteType = {
 		name = "GFX_ase_glorious_renaissance"
 		texturefile = "gfx/interface/ages/ase_glorious_renaissance.dds"
 	}
-	
 	spriteType = {
 		name = "GFX_ase_hungary_defense"
 		texturefile = "gfx/interface/ages/ase_hungary_defense.dds"
 	}
-	#classic
 	spriteType = {
 	     name = "GFX_classic_HRE_Prince"
 		 texturefile = "gfx/interface/ages/classic_HRE_Prince.dds"
@@ -41,30 +30,14 @@ spriteTypes = {
 	     name = "GFX_classic_mamluk"
 		 texturefile = "gfx/interface/ages/classic_cavalry_cost.dds"
     }
-
-
 	#Reformation
 	spriteType = {
 		name = "GFX_ase_strength_unity"
 		texturefile = "gfx/interface/ages/ase_strength_unity.dds"
 	}
-
 	spriteType = {
 		name = "GFX_ase_muslim_jihad"
 		texturefile = "gfx/interface/ages/ase_muslim_jihad.dds"
-	}
-	spriteType = {
-		name = "GFX_ase_confessionalism"
-		texturefile = "gfx/interface/ages/ase_confessionalism.dds"
-	}
-	spriteType = {
-		name = "GFX_ase_dharmic_syncretism"
-		texturefile = "gfx/interface/ages/ase_dharmic_syncretism.dds"
-	}
-
-	spriteType = {
-		name = "GFX_ase_papal_warrior"
-		texturefile = "gfx/interface/ages/ase_papal_warrior.dds"
 	}
 	spriteType = {
 	    name = "GFX_ab_persia_court"
@@ -74,96 +47,58 @@ spriteTypes = {
 	    name = "GFX_classic_morroco_tolerance"
 		texturefile = "gfx/interface/ages/classic_morroco_tolerance.dds"
 	}
-
+	spriteType = {
+	    name = "GFX_classic_chinese_maintenance"
+		texturefile = "gfx/interface/ages/classic_chinese_maintenance.dds"
+	}
 	#Absolutism
-	spriteType = {
-		name = "GFX_ase_economic_theory"
-		texturefile = "gfx/interface/ages/ase_economic_theory.dds"
-	}
-	spriteType = {
-		name = "GFX_ase_innovative_culture"
-		texturefile = "gfx/interface/ages/ase_innovative_culture.dds"
-	}
 	spriteType = {
 		name = "GFX_ase_stable_society"
 		texturefile = "gfx/interface/ages/ase_stable_society.dds"
 	}
-
 	spriteType = {
 		name = "GFX_ase_strategic_warfare"
 		texturefile = "gfx/interface/ages/ase_strategic_warfare.dds"
 	}
 	spriteType = {
-		name = "GFX_ase_cultural_relativism"
-		texturefile = "gfx/interface/ages/ase_cultural_relativism.dds"
-	}
-	spriteType = {
 		name = "GFX_ase_imperial_control"
 		texturefile = "gfx/interface/ages/ase_imperial_control.dds"
 	}
-
 	spriteType = {
-		name = "GFX_ase_japan_prosperity"
-		texturefile = "gfx/interface/ages/ase_japan_prosperity.dds"
+		name = "GFX_classic_ahu_general_staff"
+		texturefile = "gfx/interface/ages/classic_ahu_general_staff.dds"
 	}
 	spriteType = {
-		name = "GFX_ase_morocco_expedition"
-		texturefile = "gfx/interface/ages/ase_morocco_expedition.dds"
+		name = "GFX_classic_ahu_general_staff"
+		texturefile = "gfx/interface/ages/classic_ahu_general_staff.dds"
 	}
 	spriteType = {
-		name = "GFX_ase_maghrebi_piracy"
-		texturefile = "gfx/interface/ages/ase_maghrebi_piracy.dds"
+		name = "GFX_classic_ita_merc_dis"
+		texturefile = "gfx/interface/ages/classic_ita_merc_dis.dds"
 	}
-
 	#Revolution
 	spriteType = {
 		name = "GFX_ase_industrial_nation"
 		texturefile = "gfx/interface/ages/ase_industrial_nation.dds"
 	}
 	spriteType = {
-		name = "GFX_ase_powerful_diplomacy"
-		texturefile = "gfx/interface/ages/ase_powerful_diplomacy.dds"
-	}
-	spriteType = {
 		name = "GFX_ase_join_revolution"
 		texturefile = "gfx/interface/ages/ase_join_revolution.dds"
-	}
-
-	spriteType = {
-		name = "GFX_ase_enlightened_governance"
-		texturefile = "gfx/interface/ages/ase_enlightened_governance.dds"
-	}
-	spriteType = {
-		name = "GFX_ase_nationalistic_fervor"
-		texturefile = "gfx/interface/ages/ase_nationalistic_fervor.dds"
-	}
-	spriteType = {
-		name = "GFX_ase_uniform_education"
-		texturefile = "gfx/interface/ages/ase_uniform_education.dds"
 	}
 	spriteType = {
 		name = "GFX_ase_universal_literacy"
 		texturefile = "gfx/interface/ages/ase_universal_literacy.dds"
 	}
-
 	spriteType = {
 		name = "GFX_ase_germany_industrialisation"
 		texturefile = "gfx/interface/ages/ase_germany_industrialisation.dds"
 	}
 	spriteType = {
-		name = "GFX_ase_hanover_marriages"
-		texturefile = "gfx/interface/ages/ase_hanover_marriages.dds"
+	    name = "GFX_classic_hegemon"
+		texturefile = "gfx/interface/ages/classic_hegemon.dds"
 	}
 	spriteType = {
-		name = "GFX_ase_italian_hegemony"
-		texturefile = "gfx/interface/ages/ase_italian_hegemony.dds"
-	}
-	spriteType = {
-		name = "GFX_ase_marathas_horsemen"
-		texturefile = "gfx/interface/ages/ase_marathas_horsemen.dds"
-	}
-	spriteType = {
-		name = "GFX_ase_united_states"
-		texturefile = "gfx/interface/ages/ase_united_states.dds"
+	    name = "GFX_classic_revolution"
+		texturefile = "gfx/interface/ages/classic_revolution.dds"
 	}
 }
