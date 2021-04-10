@@ -97,7 +97,7 @@ age_of_discovery = {
 		}
 		ase_piles_gold = {
 			num_of_owned_provinces_with = {
-				value = 3
+				value = 2
 				trade_goods = gold
 			}
 		}
@@ -140,7 +140,7 @@ age_of_discovery = {
 		}
 		ab_cavalry_armies = {
 			modifier = {
-				cav_cost = -0.1
+				cavalry_cost = -0.1
 			}
 			ai_will_do = {
 				factor = 10
@@ -169,13 +169,13 @@ age_of_discovery = {
 
 		
 
-        classic_HRE_Prince = {
+        classic_indian_expansion = {
             allow = {
-                is_part_of_hre = yes
-            }
-            modifier = {
-                ae_impact = -0.1
-            }
+			    technology_group = indian
+			}
+			modifier = {
+			    core_creation = -0.1
+		    }
             ai_will_do = {
 				factor = 10
 			}
@@ -231,7 +231,7 @@ age_of_discovery = {
 				tag = MAM
 			}
 			modifier = {
-				merc_maintenance_modifier = -0.2
+				merc_maintenance_modifier = -0.25
 			}
 			ai_will_do = {
 				factor = 100
@@ -421,7 +421,7 @@ age_of_reformation = {
 				tag = MUG
 			}
 			modifier = {
-				artillery_cost = -0.3
+				artillery_cost = -0.35
 				artillery_power = 0.1
 			}
 			ai_will_do = {
@@ -434,7 +434,6 @@ age_of_reformation = {
 					tag = PLC
 					tag = POL
 					tag = UKR
-					tag = LIT
 				}
 			}
 			modifier = {
@@ -449,7 +448,7 @@ age_of_reformation = {
 				tag = PER
 			}
 			modifier = {
-				global_regiment_cost = -0.20
+				reinforce_cost_modifier = -0.30
 			}
 			ai_will_do = {
 				factor = 100
@@ -464,8 +463,7 @@ age_of_reformation = {
 			    }
 		    }			 
 			modifier = {
-			    tolerance_heathen = 2
-				tolerance_heretic = 2
+			    shock_damage = 0.2
 		    }
 			ai_will_do = {
 				factor = 100
@@ -649,7 +647,7 @@ age_of_absolutism = {
 		        tag = AHU
 		    }
 		    modifier = {
-		        general_cost = -0.1
+		        general_cost = -0.15
 		    }
 		}
 		classic_ita_merc_dis = {
@@ -862,7 +860,7 @@ age_of_revolutions = {
 			allow = {
 				culture_group = germanic
 				NOT = {
-				    culture = prussian
+				    was_tag = PRU
 			    }
 			}
 			modifier = {

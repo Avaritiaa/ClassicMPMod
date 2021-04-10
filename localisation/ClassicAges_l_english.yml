@@ -3,11 +3,11 @@
  ase_build_fleet: "Build a Fleet"
  ase_build_fleet_desc: "Has at least 6 Heavy Ships or 20 Light Ships"
  ase_piles_gold: "Piles of Gold"
- ase_piles_gold_desc: "Own at least 3 provinces producing Gold"
+ ase_piles_gold_desc: "Own at least 2 provinces producing Gold"
 
  ase_glorious_renaissance: "Glorious Renaissance"
  ase_hungary_defense: "Hungarian Defense"
- classic_HRE_Prince: "Imperial Diplomacy"
+ classic_indian_expansion: "Indians expand"
  classic_imperial_growth: "Imperial Centralization"
  classic_mamluk: "Mercanary Contracts"
 

@@ -17,8 +17,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ages/ase_hungary_defense.dds"
 	}
 	spriteType = {
-	     name = "GFX_classic_HRE_Prince"
-		 texturefile = "gfx/interface/ages/classic_HRE_Prince.dds"
+	     name = "GFX_classic_indian_expansion"
+		 texturefile = "gfx/interface/ages/classic_indian_core.dds"
 	}
 	
 	spriteType = {
