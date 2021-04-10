@@ -7,9 +7,6 @@ emperor_reichsreform = {
 		local_build_cost = -0.05
 		local_development_cost = -0.05
 	}
-	emperor = {
-		imperial_authority_value = 0.2
-	}
 	on_effect = {
 		imperial_ban_allowed = yes
 	}
@@ -29,6 +26,7 @@ emperor_reichsregiment = {
 		global_tax_modifier = 0.05
 	}
 	emperor = {
+		imperial_authority_value = 0.15
 		diplomatic_reputation = 1
 		diplomats = 1
 	}
@@ -125,8 +123,8 @@ emperor_landsknechtswesen = {
 	potential = {
 		has_dlc = "Emperor"
 	}
-	emperor_per_prince = {
-		global_manpower = 3
+	emperor = {
+		reserves_organisation = 0.25
 	}
 	elector = {
 		mercenary_cost = -0.15
