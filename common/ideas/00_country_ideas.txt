@@ -1117,7 +1117,7 @@ POL_ideas = {
 		production_efficiency = 0.1
 	}
 	winged_hussars = {
-		cavalry_power = 0.33
+		cavalry_power = 0.20
 	}
 	peichota_wybraniecka = {
 		global_manpower_modifier = 0.25
