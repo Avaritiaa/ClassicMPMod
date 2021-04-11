@@ -250,6 +250,20 @@ warningaction = {
 	}
 }
 
+call_crusade_action = {
+	condition = {
+		potential = {
+			ROOT = {is_papal_controller = yes}
+		}
+		allow = {
+			AND = {
+				FROM = {religion_group = muslim}
+				current_age = age_of_discovery
+			}
+		}
+	}
+}
+
 threaten_war = {
 	condition = {
 		tooltip = h_tooltip_commanderythreaten
