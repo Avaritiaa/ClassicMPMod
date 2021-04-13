@@ -23,6 +23,7 @@
  #Absolutism
  ase_stable_society: "Stable Society"
  ase_stable_society_desc: "Have 3 Stability, over 90 Legitimacy and atleast -3 Unrest"
+ obj_emperor_of_china_desc: "Be an Empire in China"
 
  ase_strategic_warfare: "Strategic Warfare"
  ase_imperial_control: "Imperial Control"
