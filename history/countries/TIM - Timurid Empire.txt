@@ -98,7 +98,7 @@ change_estate_land_share = {
 	}
 }
 
-1444.12.12 = { #Serious illness of Shahrukh. Goharshad makes Firuzshah (governor of Balkh) swear bayqat to Ala al-Dawla
+1444.6.1 = { #Serious illness of Shahrukh. Goharshad makes Firuzshah (governor of Balkh) swear bayqat to Ala al-Dawla
 	heir = {
 		name = "Ala al-Dawla Abd Allah"
 		dynasty = "Timurid"
@@ -106,7 +106,7 @@ change_estate_land_share = {
 		death_date = 1457.7.19
 		adm = 3
 		dip = 3
-		mil = 3
+		mil = 2
 	}
 }
 

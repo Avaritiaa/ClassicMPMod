@@ -769,7 +769,7 @@ country_event = {
 		}
 		add_country_modifier = {
 			name = per_shia_conversion_policy
-			duration = 3650
+			duration = 7300 
 		}
 		set_country_flag = per_shiite_policies
 	}
