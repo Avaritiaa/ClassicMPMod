@@ -306,6 +306,7 @@ offensive_ideas = {
 	}
 	grand_army = {
 		land_forcelimit_modifier = 0.25
+		global_manpower_modifier = 0.20
 	}
 	napoleonic_warfare = {
 		discipline = 0.05
