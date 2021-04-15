@@ -937,9 +937,8 @@ merc_mesopotamian_mamluks = {
     regiments_per_development = 0.06
     cavalry_weight = 0.5
     artillery_weight = 0
-	cavalry_cap = 10
 	home_province = 410
-	cost_modifier = 0.25
+	cost_modifier = 0.75
 	sprites = { dlc080_alh_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
 		OR = {
@@ -955,7 +954,7 @@ merc_mesopotamian_mamluks = {
 		}
 	}
     modifier = {
-        cavalry_shock = 1.5
+        cavalry_shock = 1
     }
 }
 
