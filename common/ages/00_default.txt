@@ -91,14 +91,18 @@ age_of_discovery = {
 
 		ase_build_fleet = {
 			OR = {
-				num_of_heavy_ship = 6
+				num_of_heavy_ship = 5
+                                num_of_galley = 10
 				num_of_light_ship = 20
 			}
 		}
 		ase_piles_gold = {
 			num_of_owned_provinces_with = {
-				value = 2
-				trade_goods = gold
+				value = 20
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
 			}
 		}
 	}
@@ -231,7 +235,8 @@ age_of_discovery = {
 				tag = MAM
 			}
 			modifier = {
-				merc_maintenance_modifier = -0.25
+				mercenary_cost = -0.5
+                                mercenary_manpower = 0.5
 			}
 			ai_will_do = {
 				factor = 100
