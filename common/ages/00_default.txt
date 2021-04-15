@@ -93,12 +93,12 @@ age_of_discovery = {
 			OR = {
 				num_of_heavy_ship = 5
                                 num_of_galley = 10
-				num_of_light_ship = 10
+				num_of_light_ship = 20
 			}
 		}
 		ase_piles_gold = {
 			num_of_owned_provinces_with = {
-				value = 20
+				value = 10
 				OR = {
 					has_building = temple
 					has_building = cathedral

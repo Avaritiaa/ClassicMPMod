@@ -1,7 +1,7 @@
 ﻿l_english:
  #Discovery
  ase_build_fleet: "Build a Fleet"
- ase_build_fleet_desc: "Has at least 6 Heavy Ships or 20 Light Ships"
+ ase_build_fleet_desc: "Has at least 5 Heavy Ships, 10 Galleys or 10 Light Ships"
  ase_piles_gold: "Build Churches"
  ase_piles_gold_desc: "Have at least 10 Churches"
 
