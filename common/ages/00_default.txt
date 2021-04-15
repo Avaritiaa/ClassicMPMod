@@ -93,7 +93,7 @@ age_of_discovery = {
 			OR = {
 				num_of_heavy_ship = 5
                                 num_of_galley = 10
-				num_of_light_ship = 20
+				num_of_light_ship = 10
 			}
 		}
 		ase_piles_gold = {
