@@ -79,9 +79,6 @@ change_estate_land_share = {
 	add_ruler_personality = obsessive_perfectionist_personality
 }
 
-1444.1.1 = { leader = {	name = "Barsbai Burji"	type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1454.1.1 } }
-1444.1.1 = { leader = {	name = "Muhammad Mahmudi"	type = general	fire = 1	shock = 3	manuever = 2	siege = 3	death_date = 1454.1.1 } }
-
 1453.2.13 = {
 	monarch = {
 		name = "Inâl"
