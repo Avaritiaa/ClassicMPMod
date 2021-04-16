@@ -1,10 +1,13 @@
 push_the_turk = {
 	mercenary_manpower= 0.50
-	galley_power = 0.20
 	recover_army_morale_speed = 0.20
 	movement_speed = 0.25
 	reinforce_cost_modifier = -0.20
 	reinforce_speed = 0.20
-	shock_damage = 0.15
 	interest = -1
+}
+
+push_the_turk1 = {
+	shock_damage = 0.15
+	galley_power = 0.20
 }
