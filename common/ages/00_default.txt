@@ -235,8 +235,8 @@ age_of_discovery = {
 				tag = MAM
 			}
 			modifier = {
-				mercenary_cost = -0.5
-                                mercenary_manpower = 0.5
+				mercenary_cost = -0.25
+                mercenary_manpower = 0.25
 			}
 			ai_will_do = {
 				factor = 100

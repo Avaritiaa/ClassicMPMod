@@ -934,8 +934,8 @@ merc_bukhara_band = {
 
 # Mesopotamian Mamluks
 merc_mesopotamian_mamluks = {
-    regiments_per_development = 0.06
-    cavalry_weight = 0.5
+    regiments_per_development = 0.05
+    cavalry_weight = 0.4
     artillery_weight = 0
 	home_province = 410
 	cost_modifier = 1.1
