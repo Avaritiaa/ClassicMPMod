@@ -938,13 +938,14 @@ merc_mesopotamian_mamluks = {
     cavalry_weight = 0.5
     artillery_weight = 0
 	home_province = 410
-	cost_modifier = 0.75
+	cost_modifier = 1.1
 	sprites = { dlc080_alh_sprite_pack muslimgfx_sprite_pack }
 	trigger = {
 		OR = {
 			capital_scope = {
 				region = mashriq_region
 			}
+			accepted_culture = al_iraqiya_arabic
 			AND = {
 				religion_group = muslim
 				any_owned_province = {
@@ -954,7 +955,7 @@ merc_mesopotamian_mamluks = {
 		}
 	}
     modifier = {
-        cavalry_shock = 1
+        cavalry_shock = 1.0
     }
 }
 
